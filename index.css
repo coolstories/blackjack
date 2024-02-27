@@ -1,0 +1,74 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: white;
+    width: 150px;
+    background: #007bff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    padding-right: 1px;
+    margin-left: 1px;
+}
+
+#name-input {
+    padding: 7.5px 12.5px;
+    margin: 10px 0;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 1px;
+}
+
+#name-input:focus {
+    outline: none;
+    border-color: #0056b3; /* Darker blue border on focus */
+    box-shadow: 0 0 8px 0 rgba(0, 123, 255, 0.5); /* Blue shadow */
+}
+
+#name-entry-screen {
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.blackjack-title {
+    color: goldenrod;
+}
+
+

